@@ -580,10 +580,6 @@ function add_lunch_combo()
 function print_lunch_menu()
 {
     local uname=$(uname)
-    echo
-    echo "You're building on" $uname
-    echo
-    echo "Lunch menu... pick a combo:"
 
     local i=1
     local choice
